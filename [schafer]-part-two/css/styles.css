@@ -1,0 +1,50 @@
+html {
+    height: auto;
+    background-image: url(https://centralhighlands.com.au/files/2014/12/weather-hero.jpg);
+    background-size: cover
+    background-color: #F0ECEE; 
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 80;
+    color: floralwhite;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 200;
+    color: floralwhite;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    display: block;
+    text-align: center;
+    color: black;
+    background-color: floralwhite;
+    font-size: 18px;
+    padding: 11px 30px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#resultsAndAnswers {
+    display: block;
+    color: floralwhite;
+    background: none;
+    font-size: 50px;
+    text-align: center;
+    padding: 11px 30px;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 50px;
+    }
